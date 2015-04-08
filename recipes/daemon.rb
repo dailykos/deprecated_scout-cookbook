@@ -1,7 +1,7 @@
 apt_repository 'scout' do
   uri          'http://archive.scoutapp.com'
   components   ['main']
-  distribution node['platform']
+  distribution 'ubuntu'
   key          'https://archive.scoutapp.com/scout-archive.key'
 end
 
