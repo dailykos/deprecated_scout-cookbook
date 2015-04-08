@@ -13,3 +13,4 @@ end
 depends 'apt',   '~> 2.7.0'
 depends 'cron',  '~> 1.6.1'
 depends 'rbenv', '~> 1.7.1'
+depends 'runit', '~> 1.5.18'

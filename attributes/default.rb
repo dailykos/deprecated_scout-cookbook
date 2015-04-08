@@ -5,6 +5,7 @@
 # required
 default[:scout][:key] = nil
 default[:scout][:run_mode] = :daemon
+default[:scout][:version] = nil
 
 # optional
 default[:scout][:user] = "scout"
@@ -13,7 +14,6 @@ default[:scout][:hostname] = nil
 default[:scout][:name] = nil
 default[:scout][:roles] = Array.new
 default[:scout][:bin] = nil
-default[:scout][:version] = nil
 default[:scout][:public_key] = nil
 default[:scout][:http_proxy] = nil
 default[:scout][:https_proxy] = nil
